@@ -4,6 +4,5 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install 
 
 CMD ["python","-m","unittest","testing.py"]
