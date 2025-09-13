@@ -9,7 +9,7 @@ pipeline{
         stage("Building the docker image"){
             steps{
                 bat 'docker build -t ci-cd-practice .'
-                echo 'minor test'
+                echo 'minor test - 2'
             }
         }
         stage("Running the tests"){
